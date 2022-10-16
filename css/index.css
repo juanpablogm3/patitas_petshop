@@ -7,32 +7,71 @@
 --principal: #08a0f7;
 }
 /*NORMALIZE*/
-*{
+/* *{
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
-}
+} */
 /*HEADER*/
 .header{
-	background-image: linear-gradient(var(--principal), transparent);
-	width: 100%;
+	background-image: linear-gradient(var(--principal), white);
+	/* width: 100%; */
+}
+.navbar-brand{
+	font-family: Gloria Hallelujah;
+	font-size: x-large;
+}
+.navbar-collapse {
+    flex-grow: inherit;
+	margin-right: 2rem;
+	font-family: Gloria Hallelujah;
 }
 .header__logo{
+	animation-name: latido;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes latido {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	  }
+	14% {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	28% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	42% {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	70% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+/* .header__logo{
 	display: inline-block;
 	height: 150px;
 	width: 150px;
-}
-.header__title{
+} */
+
+/* .header__title{
 	display: inline-block;
 	font-family: Gloria Hallelujah;
 	color: black;
 	font-size: 70px;
+	text-decoration: none;
 }
 .navbar__list{
 	height: 80px;
 	width: 700px;
-}
-.navbar__list__item{
+} */
+/* .navbar__list__item{
 	font-family: Gloria Hallelujah;
 	display: inline-block;
 	color: black;
@@ -40,9 +79,9 @@
 	padding: 10px 30px;
 	margin-top: 20px;
 	background-image: linear-gradient(var(--principal), transparent);
-	border: solid 2px black; 
+	/* border: solid 2px black;
 	border-radius: 5%;
-}
+}*/
 /*FOOTER*/
 .footer{
 	background-image: linear-gradient(transparent, var(--principal));
@@ -51,7 +90,7 @@
 }
 .footer__title{
 	display: inline-block;
-	margin-left: 500px;
+	/* margin-left: 500px; */
 }
 .footer__logo{
 	margin: 10px 5px 0px;
@@ -71,7 +110,7 @@
 	height: 500px;
 	
 }
-.main__title__container{
+/* .main__title__container{
 	display: inline-block;
 	width: 600px;
 	height: 400px;
@@ -89,7 +128,7 @@
 	height: 400px;
 	width: 600px;
 	overflow: hidden;
-}
+} */
 /*CONTACT*/
 .form__boton{
 	margin-top: 10px;
@@ -188,6 +227,6 @@
 	width: 150px;
 	height: 100px;
 }
-.active{
+.gallery__active{
 	border: 5px solid;
 }

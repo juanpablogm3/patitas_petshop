@@ -5,32 +5,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 		<title>Patitas Petshop</title>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
-
 	</head>
 	<body>
 		<header class="header">
-			<a href="./index.html">
-					<img class="header__logo" src="./images/logo_patitas.png">
-			</a>
-			<h1>
-				<a class="header__title" href="./index.html">Patitas Petshop</a>
-			</h1>
-			<nav class="navbar">
-				<ul class="navbar__list">
-					<a href="./pages/about_us.html"><li class="navbar__list__item">Sobre Nosotros</li></a>
-					<a href="./pages/products.html"><li class="navbar__list__item">Productos</li></a>
-					<a href="./pages/our_clients.html"><li class="navbar__list__item">Nuestros clientes</li></a>
-					<a href="./pages/contact_us.html"><li class="navbar__list__item">Contacto</li></a>
-				</ul>
-			</nav>
+			<nav class="navbar navbar-expand-md bg-light header">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="./index.html"><img src="./images/logo_patitas.png" alt="Logo Corazon con huella de perro" width="100" height="100" class="header__logo">Patitas Petshop</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" href="./pages/about_us.html">Sobre Nosotros</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" href="./pages/products.html">Productos</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" href="./pages/our_clients.html">Nuestros clientes</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link active" href="./pages/contact_us.html">Contacto</a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
 		</header>
 		<section class="main">
-			<main class="main__title__container">
+			<!-- <main class="main__title__container">
 				<h2 class="main__title">"Nuestros compañeros perfectos nunca tienen menos de cuatro patas"</h2>
 				<p class="main__subtitle">Sidonie Gabrielle Colette</p>
 			</main>
-			<img class="main__image" src="./images/fondo.jpg" alt="Gatito y perrito juntos">
+			<img class="main__image" src="./images/fondo.jpg" alt="Gatito y perrito juntos"> -->
+			<figure>
+				<blockquote class="blockquote">
+				  <p class="main__title" >Nuestros compañeros perfectos nunca tienen menos de cuatro patas.</p>
+				</blockquote>
+				<figcaption class="blockquote-footer">
+					Sidonie Gabrielle Colette
+				</figcaption>
+				<img src="./images/fondo.jpg" class="img-fluid rounded float-end main__image" width="800" height="600" alt="Gatito y perrito juntos">
+			  </figure>
+			  
 		</section>
 		<footer class="footer">
 			<h2 class="footer__title">Seguinos en nuestras redes</h2>
@@ -38,5 +58,6 @@
 			<a href="https://www.instagram.com/petshoppatitas_ok/?hl=es-la" target="blank"><img class="footer__logo" src="./images/logo_instagram.png" alt="Logo Instagram"></a>
 			<p class="footer__p">© Copyright 2022 Juan Pablo García Martínez</p>
 		</footer>
+		<script src="./js/bootstrap.js"></script>
 	</body>
 </html>
