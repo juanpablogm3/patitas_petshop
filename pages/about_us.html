@@ -6,24 +6,34 @@
 	<title>Patitas Petshop</title>
 	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../css/bootstrap.css">
-	<!-- <link rel="stylesheet" type="text/css" href="../css/index.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
 	<header class="header">
-		<a href="../index.html">
-				<img class="header__logo" src="../images/logo_patitas.png">
-		</a>
-		<h1>
-			<a class="header__title" href="../index.html">Patitas Petshop</a>
-		</h1>
-		<nav class="navbar">
-			<ul class="navbar__list">
-				<a href="./about_us.html"><li class="navbar__list__item">Sobre Nosotros</li></a>
-				<a href="./products.html"><li class="navbar__list__item">Productos</li></a>
-				<a href="./our_clients.html"><li class="navbar__list__item">Nuestros clientes</li></a>
-				<a href="./contact_us.html"><li class="navbar__list__item">Contacto</li></a>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-expand-md bg-light header">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="../index.html"><img src="../images/logo_patitas.png" alt="Logo Corazon con huella de perro" width="80" height="80" class="header__logo"><span class="brand__titulo">Patitas Petshop</span></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item boton">
+					<a class="nav-link active" href="./about_us.html">Sobre Nosotros</a>
+				  </li>
+				  <li class="nav-item boton">
+					<a class="nav-link active" href="./products.html">Productos</a>
+				  </li>
+				  <li class="nav-item boton">
+					<a class="nav-link active" href="./our_clients.html">Nuestros clientes</a>
+				  </li>
+				  <li class="nav-item boton">
+					<a class="nav-link active" href="./contact_us.html">Contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 	</header>
 	<section class="history">
 		<h2>Sobre nosotros...</h2>
@@ -37,11 +47,16 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</section>
-	<footer class="footer">
-		<h2 class="footer__title">Seguinos en nuestras redes</h2>
-		<a href="https://www.facebook.com/patitas.petshopmerlo.98" target="blank"><img class="footer__logo" src="../images/logo_facebook.png" alt="Logo Facebook"></a>
-		<a href="https://www.instagram.com/petshoppatitas_ok/?hl=es-la" target="blank"><img class="footer__logo" src="../images/logo_instagram.png" alt="Logo Instagram"></a>
-		<p class="footer__p">© Copyright 2022 Juan Pablo García Martínez</p>
+	<footer class="d-flex flex-wrap justify-content-between align-items-center footer">
+		<ul class="nav align-items-center">
+			<li class="ms-3"><img src="../images/logo_patitas.png" width="50" height="50"></li>
+			<li class="ms-3">© Copyright 2022 by Juan Pablo García Martínez</li>
+		</ul>
+		<ul class="nav align-items-center logos__redes">
+			<li class="ms-3 redes__texto ">Seguinos en nuestras redes</li>
+			<li class="ms-3"><a href="https://www.instagram.com/petshoppatitas_ok/?hl=es-la" target="_blank"><img src="../images/logo_instagram.png" h="40" height="40"></a></li>
+			<li class="ms-3"><a href="https://www.facebook.com/patitas.petshopmerlo.98" target="_blank"><img src="../images/logo_facebook.png" h="40" height="40"></a></li>
+		</ul>
 	</footer>
 	<script src="../js/bootstrap.js"></script>
 </body>
