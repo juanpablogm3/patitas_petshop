@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Patitas Petshop</title>
-	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="icon" href="../images/logo_patitas.png">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
@@ -36,14 +36,31 @@
 		  </nav>
 	</header>
 	<section class="form">
-		<h2>Contacto</h2>
-		<form class="form__container">
-			<input class="form__campo" type="text" name="nombre_apellido" placeholder="Nombre y Apellido">
-			<input class="form__campo" type="email" name="email" placeholder="Email">
-			<textarea class="form__campo textarea" placeholder="Su mensaje"></textarea>
-			<input class ="form__boton" type="submit" name="enviar" value="Enviar">
-		</form>
-		<p class="form__p">Envianos tu mensaje, lo responderemos a la brevedad</p>
+		<h2 class="form__title">Contacto</h2>
+		<div class="container">
+			<div class="row align-items-center">
+			  	<div class="col-lg-6 text-center text-lg-start">
+					<h3 class="display-6 fw-bold">Envianos tu mensaje, lo responderemos a la brevedad</h3>
+			  	</div>
+			  	<div class="col-md-10 mx-auto col-lg-5">
+					<form class="p-4 p-md-5 border rounded-3 bg-light">
+						<div class="form-floating mb-3">
+							<input type="text" class="form-control" id="floatingName" placeholder="Nombre y apellido">
+							<label for="floatingName">Nombre y apellido</label>
+						</div>
+						<div class="form-floating mb-3">
+							<input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com">
+							<label for="floatingEmail">Email</label>
+						</div>
+						<div class="form-floating mb-3">
+							<textarea class="form-control" id="floatingMessage" placeholder="Su mensaje"></textarea>
+							<label for="floatingMessage">Su mensaje</label>
+						</div>
+						<input class="w-100 btn btn-lg btn-primary form__boton" type="submit" name="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 	<footer class="d-flex flex-wrap justify-content-between align-items-center footer">
 		<ul class="nav align-items-center">
