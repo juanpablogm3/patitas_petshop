@@ -12,7 +12,7 @@
 		<header class="header">
 			<nav class="navbar navbar-expand-md bg-light header">
 				<div class="container-fluid">
-				  <a class="navbar-brand" href="./index.html"><img src="./images/logo_patitas.png" alt="Logo Corazon con huella de perro" width="80" height="80" class="header__logo"><span class="pepito">Patitas Petshop</span></a>
+				  <a class="navbar-brand" href="./index.html"><img src="./images/logo_patitas.png" alt="Logo Corazon con huella de perro" width="80" height="80" class="header__logo"><span class="brand__titulo">Patitas Petshop</span></a>
 				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
@@ -35,24 +35,37 @@
 				</div>
 			  </nav>
 		</header>
-		<section class="main row">
-			<figure class="cita col-auto">
-				<blockquote class="blockquote">
+		<section class="main row align-items-center">
+			<div class="cita col-auto">
+				<blockquote height="400px" class="blockquote main__title">
 					Nuestros compañeros perfectos nunca tienen menos de cuatro patas.
 				</blockquote>
 				<figcaption class="blockquote-footer">
 					Sidonie Gabrielle Colette
 				</figcaption>
-				</figure>
-				<div class="foto__main col-auto">
+			</div>
+			<div class="foto__main col-auto">
 					<img src="./images/fondo.jpg" class="img-fluid rounded main__image" width="600" height="400" alt="Gatito y perrito juntos">
-				</div>
+			</div>
 			</section>
-		<footer class="footer">
+		<!-- <footer class="footer">
 			<h2 class="footer__title">Seguinos en nuestras redes</h2>
 			<a href="https://www.facebook.com/patitas.petshopmerlo.98" target="blank"><img class="footer__logo" src="./images/logo_facebook.png" alt="Logo Facebook"></a>
 			<a href="https://www.instagram.com/petshoppatitas_ok/?hl=es-la" target="blank"><img class="footer__logo" src="./images/logo_instagram.png" alt="Logo Instagram"></a>
 			<p class="footer__p">© Copyright 2022 Juan Pablo García Martínez</p>
+		</footer> -->
+		<footer class="d-flex flex-wrap justify-content-between align-items-center footer">
+			<ul class="nav align-items-center">
+				<li class="ms-3"><img src="./images/logo_patitas.png" width="50" height="50"></li>
+				<li class="ms-3">© Copyright 2022 by Juan Pablo García Martínez</li>
+			</ul>
+			<!-- <div class="col-auto"></div> -->
+			<ul class="nav align-items-center logos__redes">
+				<li class="ms-3 redes__texto ">Seguinos en nuestras redes</li>
+				<li class="ms-3"><a href="https://www.instagram.com/petshoppatitas_ok/?hl=es-la" target="_blank"><img src="images/logo_instagram.png" h="40" height="40"></a></li>
+				<li class="ms-3"><a href="https://www.facebook.com/patitas.petshopmerlo.98" target="_blank"><img src="images/logo_facebook.png" h="40" height="40"></a></li>
+			</ul>
+			<!-- </div> -->
 		</footer>
 		<script src="./js/bootstrap.js"></script>
 	</body>
