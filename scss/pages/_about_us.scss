@@ -1,0 +1,23 @@
+
+/* **************ABOUT US************** */
+.history__title{
+    margin: 0px 0px 8px;
+    font-family: system-ui,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+.history {
+	font-family: Mallanna;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+
+    .history__text {
+        display: flex;
+        font-size: 1.4rem;
+    }
+}
+
+

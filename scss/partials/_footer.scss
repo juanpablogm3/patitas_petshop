@@ -1,0 +1,32 @@
+/* *************FOOTER************** */
+/* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
+.footer {
+	font-family: Mallanna;
+	background-image: linear-gradient(var(--fondo), var(--principal));
+	min-height: 100px;
+	width: 100%;
+    
+}
+/*INDEX Y ABOUT_US SIN BOOTSTRAP*/
+.footer__index {
+	display: flex;
+	justify-content: space-between;
+	font-family: Mallanna;
+	background-image: linear-gradient(var(--fondo), var(--principal));
+	width: 100%;
+
+    .logos__redes{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+        margin-right: 4rem;
+    }
+
+    .logo__copy {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+    }    
+}

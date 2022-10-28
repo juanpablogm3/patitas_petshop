@@ -1,0 +1,19 @@
+/*INDEX SCSS*/
+/*MISC*/
+@import "./misc/misc"; // Variables, normalize y fuentes
+@import "./misc/mediaqueries";
+@import "./misc/animacion";
+
+/*PARTIALS*/
+@import "./partials/header";
+@import "./partials/footer";
+
+/*PAGES*/
+@import "./pages/main";
+@import "./pages/about_us";
+@import "./pages/products";
+@import "./pages/our_clients";
+@import "./pages/contact_us";
+
+
+

@@ -1,0 +1,21 @@
+
+/* ************GALLERY************* */
+.gallery{
+	width: 100%;
+    .gallery__title{
+        padding: 10px 20px;
+    }
+
+    .gallery__main__container{
+        width: 600px;
+        max-height: 400px;
+        padding: 10px 0px;
+        border-radius: 25px;
+    }
+
+    .carousel{
+        width: 800px;
+        border: 2px solid;
+        border-radius: 25px;
+    }
+}

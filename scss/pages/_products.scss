@@ -1,0 +1,24 @@
+
+/* **************PRODUCTS************** */
+.product{
+	width: 100%;
+
+    .product__page__title{
+        padding: 10px 20px;
+    }
+
+    .product__container{
+        background-image: linear-gradient(var(--principal), var(--fondo));
+        border: solid 2px black;
+
+        .product__image{
+            margin-top: 15px;
+            align-self: center;
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,187 @@
+/* *********MEDIA QUERIES********* */
+@media screen and (min-width:767px){
+	.navbar__index {
+		padding: 0px 12px;
+		min-height: 150px;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		}
+	.navbar__items__index {
+		margin-right: 3rem;
+		font-size: 1.1rem;
+		display: flex;
+		list-style: none;
+	}
+	.navbar-brand{
+		font-size: 1.5rem;
+	}
+	.brand__titulo{
+		transition: all 0.5s;
+	}
+	.brand__titulo:hover {
+		font-size: 1.7rem;
+	}
+	.header{
+		min-height: 150px;
+	}
+	.main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.cita__title {
+		max-width: 400px;
+	}
+	.main__image {
+		width: 600px;
+		height: 400px;
+	}
+	.footer__index {
+		height: 120px;
+		flex-wrap: nowrap;
+	}
+	.history__text {
+		max-width: 400px;
+		padding: 50px;
+	}
+	.history__image {
+		height:350px;
+		width: 400px;
+	}
+}
+@media screen and (min-width:766px) and (max-width:920px){
+	.main__image {
+		width: 400px;
+		height: 300px;
+	}
+	.cita__title {
+		max-width: 350px;
+		font: 1.8rem;
+	}
+}
+@media screen and (min-width:420px) and (max-width:766px){
+	.navbar__index {
+		padding: 0px 8px;
+		min-height: 120px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.navbar__items__index {
+		margin-right: 3rem;
+		font-size: 1.1rem;
+		display: flex;
+		list-style: none;
+	}
+	.navbar-brand{
+		font-size: 1.5rem;
+	}
+	.brand__titulo{
+		transition: all 0.5s;
+	}
+	.brand__titulo:hover {
+		font-size: 1.7rem;
+	}
+	.header{
+		min-height: 150px;
+	}
+	.foto__main {
+		display: flex;
+		justify-content: center;
+	}
+	.main__image {
+		width: 400px;
+		height: 300px;
+	}
+	.cita__title {
+		padding: 15px;
+	}
+	.cita__autor {
+		padding: 15px;
+	}
+	.history {
+		flex-wrap: wrap;
+	}
+	.history__text {
+		max-width: 500px;
+		padding: 50px;
+	}
+	.history__image {
+		height:250px;
+		width: 300px;
+	}
+}
+@media screen and (max-width:419px){
+	.navbar__index {
+		padding: 0px 8px;
+		min-height: 120px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.navbar__items__index {
+		margin-right: 3rem;
+		font-size: 1.1rem;
+		list-style: none;
+		justify-content: start;
+	}
+	.navbar-brand{
+		font-size: 1rem;
+	}	
+	.brand__titulo{
+		transition: all 0.5s;
+	}
+	.brand__titulo:hover {
+		font-size: 1.7rem;
+	}
+	.header{
+		min-height: 150px;
+	}
+	.main__image {
+		width: 300px;
+		height: 180px;
+	}
+	.cita__title {
+		display: flex;
+		justify-content: center;
+		max-width: 350px;
+		padding: 10px;
+	}
+	.cita__autor {
+		padding: 10px;
+	}
+	.footer__index {
+		flex-wrap: wrap;
+	}
+	.history {
+		flex-wrap: wrap;
+	}
+	.history__text {
+		max-width:300px;
+		padding: 20px;
+	}
+	.history__image {
+		height:200px;
+		width: 250px;
+	}
+}
+@media screen and (max-width:300px){
+	.foto__main {
+		display: flex;
+		justify-content: center;
+	}
+		.main__image {
+		width: 200px;
+		height: 150px;
+	}
+	.history {
+		flex-wrap: wrap;
+	}
+	.history__text {
+		max-width:200px;
+		padding: 10px;
+	}
+	.history__image {
+		height:150px;
+		width: 200px;
+	}
+}
