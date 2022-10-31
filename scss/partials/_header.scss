@@ -3,12 +3,13 @@
 .header__index {
 	font-family: Gloria Hallelujah;
 	font-size: 1.5rem;
-	background-image: linear-gradient(var(--principal), var(--fondo));
+	background-image: linear-gradient($principal, $fondo);
     
     .navbar__index {
         display: flex;
         align-items: center;
 
+        
         .navbar-brand__index, a {
             display: flex;
             align-items: center;
@@ -28,7 +29,7 @@
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
 .header{
 	width: 100%;
-	background-image: linear-gradient(var(--principal), var(--fondo));
+	background-image: linear-gradient($principal, $fondo);
 
     .navbar-brand{
         font-family: Gloria Hallelujah;

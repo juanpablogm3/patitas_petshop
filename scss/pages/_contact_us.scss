@@ -8,7 +8,7 @@
     }
 
     .form__boton{
-        background-image: linear-gradient(var(--fondo), var(--principal));
+        @include gradient($fondo, $principal);
     }
 }
 

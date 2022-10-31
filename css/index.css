@@ -5,15 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mallanna&display=swap");
 /* *******COLOR********** */
-:root {
-  --principal: #08a0f7;
-  --fondo: #ffffff; }
-
 /* ************NORMALIZE*********** */
 body {
   margin: 0px;
   padding: 0px; }
 
+/* *************MIXINS************ */
 /* *********MEDIA QUERIES********* */
 @media screen and (min-width: 767px) {
   .navbar__index {
@@ -174,7 +171,7 @@ body {
     font-size: 1.05em;
     font-weight: 600;
     border-radius: 25px;
-    box-shadow: 0px 2px 4px var(--principal); }
+    box-shadow: 0px 2px 4px #08a0f7; }
 
 /*PARTIALS*/
 /* ************* HEADER *********** */
@@ -182,7 +179,7 @@ body {
 .header__index {
   font-family: Gloria Hallelujah;
   font-size: 1.5rem;
-  background-image: linear-gradient(var(--principal), var(--fondo)); }
+  background-image: linear-gradient(#08a0f7, #ffffff); }
   .header__index .navbar__index {
     display: flex;
     align-items: center; }
@@ -200,7 +197,7 @@ body {
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
 .header {
   width: 100%;
-  background-image: linear-gradient(var(--principal), var(--fondo)); }
+  background-image: linear-gradient(#08a0f7, #ffffff); }
   .header .navbar-brand {
     font-family: Gloria Hallelujah; }
     .header .navbar-brand .header__logo {
@@ -215,19 +212,16 @@ body {
 
 /* *************FOOTER************** */
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
-.footer {
+.footer, .footer__index {
   font-family: Mallanna;
-  background-image: linear-gradient(var(--fondo), var(--principal));
+  background-image: linear-gradient(#ffffff, #08a0f7);
   min-height: 100px;
   width: 100%; }
 
 /*INDEX Y ABOUT_US SIN BOOTSTRAP*/
 .footer__index {
   display: flex;
-  justify-content: space-between;
-  font-family: Mallanna;
-  background-image: linear-gradient(var(--fondo), var(--principal));
-  width: 100%; }
+  justify-content: space-between; }
   .footer__index .logos__redes {
     display: flex;
     align-items: center;
@@ -243,7 +237,7 @@ body {
 /*PAGES*/
 /* ************MAIN************** */
 .main {
-  background-color: var(--fondo);
+  background-color: #ffffff;
   width: 100%; }
   .main .cita__title {
     font-family: dancing script;
@@ -273,7 +267,7 @@ body {
   .product .product__page__title {
     padding: 10px 20px; }
   .product .product__container {
-    background-image: linear-gradient(var(--principal), var(--fondo));
+    background-image: linear-gradient(#08a0f7, #ffffff);
     border: solid 2px black; }
     .product .product__container .product__image {
       margin-top: 15px;
@@ -302,4 +296,4 @@ body {
   .form .form__title {
     padding: 10px 20px; }
   .form .form__boton {
-    background-image: linear-gradient(var(--fondo), var(--principal)); }
+    background-image: linear-gradient(#ffffff, #08a0f7); }
