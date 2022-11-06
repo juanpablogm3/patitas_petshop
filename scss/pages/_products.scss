@@ -10,6 +10,7 @@
     .product__container{
         @include gradient($principal, $fondo);
         border: solid 2px black;
+        margin-top: 1rem;
 
         .product__image{
             margin-top: 15px;
