@@ -18,6 +18,18 @@
         display: flex;
         font-size: 1.4rem;
     }
+    .history__image__container{
+        position: relative;
+        overflow: hidden;
+
+        .cuadro__anim{
+            background-color: $fondo;
+            position: absolute;
+            z-index: 10;
+            animation: huellas 4s linear infinite;
+        }
+    }
+    
 }
 
 

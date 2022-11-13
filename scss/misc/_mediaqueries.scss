@@ -49,6 +49,10 @@
 		height:350px;
 		width: 400px;
 	}
+	.cuadro__anim{
+		height:500px;
+		width: 250px;
+	}
 }
 @media screen and (min-width:766px) and (max-width:920px){
 	.main__image {
@@ -110,6 +114,10 @@
 		height:250px;
 		width: 300px;
 	}
+	.cuadro__anim{
+		height:400px;
+		width: 200px;
+	}
 }
 @media screen and (max-width:419px){
 	.navbar__index {
@@ -163,6 +171,10 @@
 		height:200px;
 		width: 250px;
 	}
+	.cuadro__anim{
+		height:350px;
+		width: 180px;
+	}
 }
 @media screen and (max-width:300px){
 	.foto__main {
@@ -182,6 +194,10 @@
 	}
 	.history__image {
 		height:150px;
+		width: 200px;
+	}
+	.cuadro__anim{
+		height:300px;
 		width: 200px;
 	}
 }

@@ -13,6 +13,27 @@
         @include gradient($principal, $fondo);
         border: solid 2px black;
         margin-top: 1rem;
+        
+        .oferta-img-prod{
+            width: 70px;
+            height: 70px;
+            z-index: 1;
+            position: absolute;
+            margin-top: 15px;
+        }
+
+        .cart-add-prod{
+            width: 30px;
+            height: 30px;
+            z-index: 1;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 160px;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
 
         .product__image{
             margin-top: 15px;
