@@ -2,8 +2,8 @@
 /*INDEX Y ABOUT_US SIN BOOTSTRAP*/
 .header__index {
 	font-family: Gloria Hallelujah;
-	font-size: 1.5rem;
-	background-image: linear-gradient($principal, $fondo);
+	font-size: 2rem;
+	@include gradient($principal, $fondo);
     
     .navbar__index {
         display: flex;
@@ -29,10 +29,14 @@
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
 .header{
 	width: 100%;
-	background-image: linear-gradient($principal, $fondo);
-
+	@include gradient($principal, $fondo);
+    .boton{
+        font-size: 17.6px;
+    }
+    
     .navbar-brand{
         font-family: Gloria Hallelujah;
+        font-size: 2rem;
 
         .header__logo{
             margin-right: 20px;

@@ -28,7 +28,7 @@ body {
   .brand__titulo {
     transition: all 0.5s; }
   .brand__titulo:hover {
-    font-size: 1.7rem; }
+    font-size: 2.3rem; }
   .header {
     min-height: 150px; }
   .main {
@@ -74,7 +74,7 @@ body {
   .brand__titulo {
     transition: all 0.5s; }
   .brand__titulo:hover {
-    font-size: 1.7rem; }
+    font-size: 2rem; }
   .header {
     min-height: 150px; }
   .foto__main {
@@ -166,19 +166,19 @@ body {
     transform: scale(1); } }
 
 .boton {
-  padding: 0px 10px; }
+  margin: 0px 8px;
+  padding: 0px 5px; }
   .boton:hover {
     font-size: 1.05em;
-    font-weight: 600;
     border-radius: 25px;
-    box-shadow: 0px 2px 4px #08a0f7; }
+    filter: drop-shadow(5px 2px 2px #ffffff); }
 
 /*PARTIALS*/
 /* ************* HEADER *********** */
 /*INDEX Y ABOUT_US SIN BOOTSTRAP*/
 .header__index {
   font-family: Gloria Hallelujah;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background-image: linear-gradient(#08a0f7, #ffffff); }
   .header__index .navbar__index {
     display: flex;
@@ -198,8 +198,11 @@ body {
 .header {
   width: 100%;
   background-image: linear-gradient(#08a0f7, #ffffff); }
+  .header .boton {
+    font-size: 17.6px; }
   .header .navbar-brand {
-    font-family: Gloria Hallelujah; }
+    font-family: Gloria Hallelujah;
+    font-size: 2rem; }
     .header .navbar-brand .header__logo {
       margin-right: 20px;
       animation-name: latido;
@@ -243,6 +246,8 @@ body {
   .main .cita__title {
     font-family: dancing script;
     font-size: 2.4rem; }
+  .main .main__image {
+    border-radius: 25px; }
 
 .ofertas {
   font-family: system-ui,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -259,7 +264,6 @@ body {
     justify-content: space-evenly; }
     .ofertas .ofertas__container .product__container {
       background-image: linear-gradient(#08a0f7, #ffffff);
-      height: 327px;
       width: 196px;
       padding: 0px 12px;
       border: solid 2px black;
@@ -301,9 +305,11 @@ body {
 
 /* **************PRODUCTS************** */
 .product {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2rem; }
   .product .product__page__title {
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    margin-bottom: 3rem; }
   .product .product__container {
     background-image: linear-gradient(#08a0f7, #ffffff);
     border: solid 2px black;
@@ -316,9 +322,11 @@ body {
 
 /* ************GALLERY************* */
 .gallery {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2rem; }
   .gallery .gallery__title {
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    margin-bottom: 5rem; }
   .gallery .gallery__main__container {
     width: 600px;
     max-height: 400px;
@@ -331,8 +339,16 @@ body {
 
 /* *************CONTACT************** */
 .form {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2rem; }
   .form .form__title {
     padding: 10px 20px; }
   .form .form__boton {
     background-image: linear-gradient(#ffffff, #08a0f7); }
+
+/* *****************CHECKOUT**************** */
+.checkout {
+  width: 100%;
+  margin-bottom: 2rem; }
+  .checkout .checkout__title {
+    padding: 10px 20px; }

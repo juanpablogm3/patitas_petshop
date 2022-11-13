@@ -17,12 +17,12 @@
 	}
 }
 .boton{
-	padding: 0px 10px;
+	margin: 0px 8px;
+	padding: 0px 5px;
 
     &:hover{
         font-size: 1.05em;
-        font-weight: 600;
         border-radius: 25px;
-        box-shadow: 0px 2px 4px $principal;
+        filter: drop-shadow(5px 2px 2px $fondo)
     }
 }
