@@ -2,7 +2,7 @@
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
 .footer {
 	font-family: Mallanna;
-	@include gradient($fondo, $principal);
+	@include gradient($transp, $principal);
 	min-height: 100px;
 	width: 100%;
     

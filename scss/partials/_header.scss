@@ -3,33 +3,54 @@
 .header__index {
 	font-family: Gloria Hallelujah;
 	font-size: 2rem;
-	@include gradient($principal, $fondo);
+	@include gradient($principal, $transp);
+    width: 100%;
     
     .navbar__index {
+        //min-height: 150px;
+        padding: 35px;
         display: flex;
         align-items: center;
+                
+        .navbar__items__index{
+            list-style: none;
+        }
+        .check-hamb{
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+        }
 
-        
+        .hambur{
+            padding: 0.25rem 0.75rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.375rem;
+            // transition: box-shadow 0.15s ease-in-out;
+        }
+       
         .navbar-brand__index, a {
             display: flex;
             align-items: center;
             text-decoration: none;
             color: black;
-
-            .header__logo{
-                margin-right: 20px;
-                animation-name: latido;
-                animation-duration: 1s;
-                animation-iteration-count: infinite;
-            }
         }
-    }	
-}
 
-/* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
+        .header__logo{
+            margin-right: 20px;
+            animation-name: latido;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+    }
+}	
+
+
+/* PRODUCTS OUR_CLIENTS CONTACT_US y CHECKOUT CON BOOTSTRAP */
 .header{
 	width: 100%;
-	@include gradient($principal, $fondo);
+	@include gradient($principal, $transp);
     .boton{
         font-size: 17.6px;
     }

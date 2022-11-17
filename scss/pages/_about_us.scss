@@ -19,6 +19,9 @@
         font-size: 1.4rem;
     }
     .history__image__container{
+        border: 2px solid black;
+        border-radius: 25px;
+        background-color: $fondo;
         position: relative;
         overflow: hidden;
 
