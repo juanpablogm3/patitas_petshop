@@ -277,7 +277,8 @@ body {
     font-size: 17.6px; }
   .header .navbar-brand {
     font-family: Gloria Hallelujah;
-    font-size: 2rem; }
+    font-size: 2rem;
+    white-space: unset; }
     .header .navbar-brand .header__logo {
       margin-right: 20px;
       animation-name: latido;
