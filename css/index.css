@@ -288,6 +288,11 @@ body {
     flex-grow: inherit;
     margin-right: 3rem;
     font-family: Gloria Hallelujah; }
+  .badge{
+    position: absolute;
+    top: 48px;
+    right: 72px;  
+  }
 
 /* *************FOOTER************** */
 /* PRODUCTS OUR_CLIENTS Y CONTACT_US CON BOOTSTRAP */
